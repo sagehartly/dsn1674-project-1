@@ -12,6 +12,7 @@ h1 {
   font-size: 3em;
   text-align: center;
   color: #8d0963;
+  margin: 0em;
 }
 
 h2 {
@@ -30,6 +31,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0 0 1em 0;
+  text-align: center;
 }
 
 nav li {
@@ -51,7 +53,7 @@ img {
 
 figure {
   background-color: #fffec2;
-  border: 1px solid #000;
+  border: 2px solid #999533;
   border-radius: 4px;
   padding: 1em 1em 1em 1em;
 }
@@ -61,5 +63,42 @@ figcaption {
   font-style: italic;
   text-align: center;
   padding: 0.25em 0 0 0;
+}
 
+.bigquote {
+  font-size: 4em;
+  color: #999533;
+  font-style: italic;
+  text-align: center;
+  line-height: 1;
+}
+
+blockquote {
+  color: #999533;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.per100 {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+  line-height: 2;
+}
+
+a {
+  color: #8d0963;
+}
+
+footer {
+  background-color: #f6d707;
+  padding: 2em 2em 2em 2em;
+  text-align: center;
 }
