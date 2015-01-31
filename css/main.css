@@ -1,0 +1,65 @@
+header {
+  background-color: #f6d707;
+}
+
+body {
+  font-family: georgia;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #8d0963;
+}
+
+h2 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 2em;
+  color: #8d0963;
+}
+
+h3 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.5em;
+  color: #8d0963;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 1em 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #8d0963;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  background-color: #fffec2;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 1em 1em 1em 1em;
+}
+
+figcaption {
+  font-size: 11px;
+  font-style: italic;
+  text-align: center;
+  padding: 0.25em 0 0 0;
+
+}
