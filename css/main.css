@@ -3,9 +3,13 @@ header {
 }
 
 body {
+  margin: 0;
   font-family: georgia;
   font-size: 12px;
-  margin: 0;
+}
+
+p {
+  margin:.75rem;
 }
 
 h1 {
@@ -13,21 +17,23 @@ h1 {
   font-size: 3em;
   text-align: center;
   color: #8d0963;
-  margin: 0em;
+  margin: 0 0 0.25em 0;
 }
 
 h2 {
   font-family: 'Sigmar One', cursive;
   font-size: 2em;
   color: #8d0963;
-  border-top: 3px solid #f6d707;
-  padding: 0.5em 0.5em 0 0.5em;
+  border-top: 4px solid #f6d707;
+  padding: 0.5em 0.5em 0 0;
+  margin: 0.75em;
 }
 
 h3 {
   font-family: 'Sigmar One', cursive;
   font-size: 1.5em;
   color: #8d0963;
+  margin: 0.75em;
 }
 
 nav ul {
@@ -88,6 +94,10 @@ blockquote {
 
 .per100 {
   font-style: italic;
+}
+
+dl{
+  margin: 0.75em;
 }
 
 dt {
