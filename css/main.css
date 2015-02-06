@@ -5,11 +5,12 @@ header {
 body {
   margin: 0;
   font-family: georgia;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 p {
-  margin:.75rem;
+  margin: 0.75em;
+  line-height: 1.5;
 }
 
 h1 {
@@ -89,7 +90,7 @@ blockquote {
   text-align: center;
   font-size: 1.25em;
   line-height: 1.5;
-  margin: 0 2 0 0;
+  margin: 0.75em;
 }
 
 .per100 {
